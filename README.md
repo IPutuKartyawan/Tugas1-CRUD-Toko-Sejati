@@ -1,3 +1,4 @@
+
 // Nama : I Putu Kartyawan
 // NIM : 240030194
 // Matkul : Pengembangan Sistem Backend
@@ -98,4 +99,4 @@ Perubahan muncul di tabel
 4. Hapus Data
 Klik Hapus
 Sistem akan meminta konfirmasi
-Setelah klik OK, Produk terhapus dari database
+Setelah klik OK, Produk terhapus dari database.
