@@ -1,0 +1,79 @@
+/* ===== NAVBAR ===== */
+nav ul {
+    list-style: none;
+    padding: 12px 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #234;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+nav ul li a:hover {
+    color: #f63;
+}
+
+/* ===== BODY ===== */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #234;
+}
+
+/* ===== TABLE ===== */
+table {
+    border-collapse: collapse;
+    width: 95%;
+    margin: 20px auto;
+    background: #fff;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+th {
+    background: #234;
+    color: white;
+    padding: 10px;
+}
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+tr:nth-child(even) {
+    background: #f9f9f9;
+}
+img {
+    max-width: 100px;
+    max-height: 80px;
+}
+.actions a {
+    margin-right: 8px;
+}
+
+/* ===== BUTTON TAMBAH PRODUK ===== */
+.add-btn {
+    display: block;
+    width: max-content;
+    background: #234;
+    color: #fff;
+    padding: 8px 14px;
+    margin: 10px auto;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.add-btn:hover {
+    background: #f63;
+}
